@@ -1,4 +1,7 @@
-div
-    .className container h-100
-    h1 'Hello World
-
+div home
+    .className ux-home
+    *topBar mainTopBar
+    div mainArea
+        .className ux-main-area
+        *sideBar mainSideBar
+    *statusBar mainStatusBar
