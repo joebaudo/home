@@ -73,15 +73,28 @@ div app
             div
                 -marginLeft 40px
 
-                p 'Programming Languages
+                p 'Computational Logics L1 
 
                 p 'Human Computer Interaction
 
                 p 'Artificial Intelligence
 
-                p 'Software Engineering
+                p 'Machine Learning: Embeddings
+                
+                p 'Language Models 
+                
+                p 'Visual Language Models
+
+                p 'P vs NP
+
+                p 'On the undecidebility of the Riemman Hyphothesis
 
             br
+
+            div
+                span 'SECTION
+                    -color #198754
+                    -fontWeight 700
 
             div
                 span 'SECTION
@@ -94,13 +107,26 @@ div app
             div
                 -marginLeft 40px
 
-                p 'UX-Lang
+                p
+                    a 'UX-Lang
+                        -color #0d6efd
+                        .href https://www.npmjs.com/package/ux-lang
 
-                p 'UX-Lang Compiler
+                    span ' — Declarative UI language for building interfaces with UX-Lang.
 
-                p 'Desktop Framework
+                p
+                    a 'UX-CLI
+                        -color #0d6efd
+                        .href https://www.npmjs.com/package/ux-cli
 
-                p 'Experimental UI Toolkit
+                    span ' — Command line tools for UX-Lang development workflow.
+
+                p
+                    a 'UX-Editor
+                        -color #6f42c1
+                        .href #
+
+                    span ' — Editor environment for creating and experimenting with UX-Lang projects.
 
             br
 
@@ -115,13 +141,19 @@ div app
             div
                 -marginLeft 40px
 
-                p 'Language Design
+                p
+                    a 'UX: A Fast Prototyping Language for Web Development That Scales to Server
+                        -color #0d6efd
+                        .href #
 
-                p 'Compiler Notes
+                    span ' — A new approach to interface development through a declarative language designed for rapid prototyping and scalable web applications.
 
-                p 'Research Journal
+                p
+                    a 'On the Undecidability of the Riemann Hypothesis, a Paradox
+                        -color #6f42c1
+                        .href #
 
-                p 'Development Blog
+                    span ' — Exploring the philosophical and mathematical implications of undecidability, formal systems and the limits of proof.
 
             br
 
