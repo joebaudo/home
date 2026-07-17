@@ -1,0 +1,1085 @@
+<html><head></head><body>
+<script>
+window.addEventListener('DOMContentLoaded', (event) => {
+    document.head.appendChild(head());
+    window.onload = () => {
+        document.body.appendChild(body());
+    }
+});
+</script>
+<div id="ux-content-md" style="display:none">
+<div id="ux-post-post"># Hello ux-md
+Bla bla bla</div></div>
+<script>function app() 
+{
+var home = document.createElement('div')
+home.setAttribute('className', 'ux-home')
+var mainTopBar = topBar()
+var mainArea = document.createElement('div')
+mainArea.setAttribute('className', 'ux-main-area')
+var mainSideBar = sideBar()
+var mainStatusBar = statusBar()
+
+mainArea.appendChild(mainSideBar)
+
+
+home.appendChild(mainTopBar)
+
+
+home.appendChild(mainArea)
+
+
+home.appendChild(mainStatusBar)
+
+
+home.setAttribute('ux-comp-name','app')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','app')
+style.textContent = ``
+home.appendChild(style)
+return home
+}
+function appTest() 
+{
+var app = document.createElement('div')
+app.style.backgroundColor='white'
+app.style.color='#212529'
+app.style.fontFamily='JetBrains Mono, Consolas, Courier New, monospace'
+app.setAttribute('className', 'd-flex flex-column ux-full-wh')
+var header_5 = document.createElement('header')
+header_5.style.height='70px'
+header_5.style.padding='0 40px'
+header_5.style.borderBottom='1px solid #dee2e6'
+header_5.setAttribute('className', 'd-flex justify-content-between align-items-center')
+var h3_10 = document.createElement('h3')
+h3_10.style.color='#0d6efd'
+h3_10.style.fontWeight='700'
+var nav_13 = document.createElement('nav')
+
+header_5.appendChild(h3_10)
+
+nav_13.setAttribute('className', 'd-flex gap-4')
+var main_15 = document.createElement('main')
+
+header_5.appendChild(nav_13)
+
+
+app.appendChild(header_5)
+
+main_15.style.padding='60px'
+main_15.setAttribute('className', 'flex-grow-1')
+var pre_18 = document.createElement('pre')
+pre_18.style.backgroundColor='#fafafa'
+pre_18.style.border='1px solid #dee2e6'
+pre_18.style.borderRadius='10px'
+pre_18.style.padding='40px'
+pre_18.style.fontSize='1.1rem'
+pre_18.style.lineHeight='2rem'
+var div_25 = document.createElement('div')
+var span_26 = document.createElement('span')
+span_26.append(document.createTextNode( 'AUTHOR'))
+span_26.style.color='#0d6efd'
+span_26.style.fontWeight='700'
+var span_29 = document.createElement('span')
+span_29.append(document.createTextNode( ' Joe Baudo'))
+
+div_25.appendChild(span_26)
+
+span_29.style.color='#212529'
+var br_31 = document.createElement('br')
+
+div_25.appendChild(span_29)
+
+
+pre_18.appendChild(div_25)
+
+var div_32 = document.createElement('div')
+var span_33 = document.createElement('span')
+span_33.append(document.createTextNode( 'APPLICATION'))
+span_33.style.color='#0d6efd'
+span_33.style.fontWeight='700'
+var span_36 = document.createElement('span')
+span_36.append(document.createTextNode( ' Personal Page'))
+
+div_32.appendChild(span_33)
+
+span_36.style.color='#198754'
+var br_38 = document.createElement('br')
+
+div_32.appendChild(span_36)
+
+
+pre_18.appendChild(br_31)
+
+
+pre_18.appendChild(div_32)
+
+var div_39 = document.createElement('div')
+var span_40 = document.createElement('span')
+span_40.append(document.createTextNode( 'ROLE'))
+span_40.style.color='#0d6efd'
+span_40.style.fontWeight='700'
+var span_43 = document.createElement('span')
+span_43.append(document.createTextNode( ' Aspiring PhD Assistant'))
+
+div_39.appendChild(span_40)
+
+span_43.style.color='#198754'
+var br_45 = document.createElement('br')
+
+div_39.appendChild(span_43)
+
+
+pre_18.appendChild(br_38)
+
+
+pre_18.appendChild(div_39)
+
+var br_46 = document.createElement('br')
+var div_47 = document.createElement('div')
+var span_48 = document.createElement('span')
+span_48.append(document.createTextNode( 'SECTION'))
+span_48.style.color='#6f42c1'
+span_48.style.fontWeight='700'
+var span_51 = document.createElement('span')
+span_51.append(document.createTextNode( ' Research'))
+
+div_47.appendChild(span_48)
+
+span_51.style.color='#212529'
+var div_53 = document.createElement('div')
+
+div_47.appendChild(span_51)
+
+
+pre_18.appendChild(br_45)
+
+
+pre_18.appendChild(br_46)
+
+
+pre_18.appendChild(div_47)
+
+div_53.style.marginLeft='40px'
+var p_55 = document.createElement('p')
+p_55.append(document.createTextNode( 'Computational Logics L1'))
+var p_56 = document.createElement('p')
+p_56.append(document.createTextNode( 'Human Computer Interaction'))
+var p_57 = document.createElement('p')
+p_57.append(document.createTextNode( 'Artificial Intelligence'))
+var p_58 = document.createElement('p')
+p_58.append(document.createTextNode( 'Machine Learning: Embeddings'))
+var p_59 = document.createElement('p')
+p_59.append(document.createTextNode( 'Language Models'))
+var p_60 = document.createElement('p')
+p_60.append(document.createTextNode( 'Visual Language Models'))
+var p_61 = document.createElement('p')
+p_61.append(document.createTextNode( 'P vs NP'))
+var p_62 = document.createElement('p')
+p_62.append(document.createTextNode( 'On the undecidebility of the Riemman Hyphothesis'))
+var br_63 = document.createElement('br')
+
+div_53.appendChild(p_55)
+
+
+div_53.appendChild(p_56)
+
+
+div_53.appendChild(p_57)
+
+
+div_53.appendChild(p_58)
+
+
+div_53.appendChild(p_59)
+
+
+div_53.appendChild(p_60)
+
+
+div_53.appendChild(p_61)
+
+
+div_53.appendChild(p_62)
+
+var div_64 = document.createElement('div')
+var span_65 = document.createElement('span')
+span_65.append(document.createTextNode( 'SECTION'))
+span_65.style.color='#198754'
+span_65.style.fontWeight='700'
+var div_68 = document.createElement('div')
+
+div_64.appendChild(span_65)
+
+
+pre_18.appendChild(div_53)
+
+
+pre_18.appendChild(br_63)
+
+
+pre_18.appendChild(div_64)
+
+var span_69 = document.createElement('span')
+span_69.append(document.createTextNode( 'SECTION'))
+span_69.style.color='#198754'
+span_69.style.fontWeight='700'
+var span_72 = document.createElement('span')
+span_72.append(document.createTextNode( ' Projects'))
+
+div_68.appendChild(span_69)
+
+span_72.style.color='#212529'
+var div_74 = document.createElement('div')
+
+div_68.appendChild(span_72)
+
+
+pre_18.appendChild(div_68)
+
+div_74.style.marginLeft='40px'
+var p_76 = document.createElement('p')
+var a_77 = document.createElement('a')
+a_77.append(document.createTextNode( 'UX-Lang'))
+a_77.style.color='#0d6efd'
+a_77.setAttribute('href', 'https://www.npmjs.com/package/ux-lang')
+var span_80 = document.createElement('span')
+span_80.append(document.createTextNode( ' — Declarative UI language for building interfaces with UX-Lang.'))
+
+p_76.appendChild(a_77)
+
+var p_81 = document.createElement('p')
+
+p_76.appendChild(span_80)
+
+var a_82 = document.createElement('a')
+a_82.append(document.createTextNode( 'UX-CLI'))
+a_82.style.color='#0d6efd'
+a_82.setAttribute('href', 'https://www.npmjs.com/package/ux-cli')
+var span_85 = document.createElement('span')
+span_85.append(document.createTextNode( ' — Command line tools for UX-Lang development workflow.'))
+
+p_81.appendChild(a_82)
+
+var p_86 = document.createElement('p')
+
+p_81.appendChild(span_85)
+
+var a_87 = document.createElement('a')
+a_87.append(document.createTextNode( 'UX-Editor'))
+a_87.style.color='#6f42c1'
+a_87.setAttribute('href', '#')
+var span_90 = document.createElement('span')
+span_90.append(document.createTextNode( ' — Editor environment for creating and experimenting with UX-Lang projects.'))
+
+p_86.appendChild(a_87)
+
+var br_91 = document.createElement('br')
+
+p_86.appendChild(span_90)
+
+
+div_74.appendChild(p_76)
+
+
+div_74.appendChild(p_81)
+
+
+div_74.appendChild(p_86)
+
+var div_92 = document.createElement('div')
+var span_93 = document.createElement('span')
+span_93.append(document.createTextNode( 'SECTION'))
+span_93.style.color='#fd7e14'
+span_93.style.fontWeight='700'
+var span_96 = document.createElement('span')
+span_96.append(document.createTextNode( ' Articles'))
+
+div_92.appendChild(span_93)
+
+span_96.style.color='#212529'
+var div_98 = document.createElement('div')
+
+div_92.appendChild(span_96)
+
+
+pre_18.appendChild(div_74)
+
+
+pre_18.appendChild(br_91)
+
+
+pre_18.appendChild(div_92)
+
+div_98.style.marginLeft='40px'
+var p_100 = document.createElement('p')
+var a_101 = document.createElement('a')
+a_101.append(document.createTextNode( 'UX: A Fast Prototyping Language for Web Development That Scales to Server'))
+a_101.style.color='#0d6efd'
+a_101.setAttribute('href', '#')
+var span_104 = document.createElement('span')
+span_104.append(document.createTextNode( ' — A new approach to interface development through a declarative language designed for rapid prototyping and scalable web applications.'))
+
+p_100.appendChild(a_101)
+
+var p_105 = document.createElement('p')
+
+p_100.appendChild(span_104)
+
+var a_106 = document.createElement('a')
+a_106.append(document.createTextNode( 'On the Undecidability of the Riemann Hypothesis, a Paradox'))
+a_106.style.color='#6f42c1'
+a_106.setAttribute('href', '#')
+var span_109 = document.createElement('span')
+span_109.append(document.createTextNode( ' — Exploring the philosophical and mathematical implications of undecidability, formal systems and the limits of proof.'))
+
+p_105.appendChild(a_106)
+
+var br_110 = document.createElement('br')
+
+p_105.appendChild(span_109)
+
+
+div_98.appendChild(p_100)
+
+
+div_98.appendChild(p_105)
+
+var div_111 = document.createElement('div')
+var span_112 = document.createElement('span')
+span_112.append(document.createTextNode( 'GOAL'))
+span_112.style.color='#dc3545'
+span_112.style.fontWeight='700'
+var span_115 = document.createElement('span')
+span_115.append(document.createTextNode( ' Build a modern UI Language'))
+
+div_111.appendChild(span_112)
+
+span_115.style.color='#198754'
+var br_117 = document.createElement('br')
+
+div_111.appendChild(span_115)
+
+
+pre_18.appendChild(div_98)
+
+
+pre_18.appendChild(br_110)
+
+
+pre_18.appendChild(div_111)
+
+var div_118 = document.createElement('div')
+var span_119 = document.createElement('span')
+span_119.append(document.createTextNode( '// Everything on this page is written in UX-Lang.'))
+span_119.style.color='#6c757d'
+var footer_121 = document.createElement('footer')
+
+div_118.appendChild(span_119)
+
+
+pre_18.appendChild(br_117)
+
+
+pre_18.appendChild(div_118)
+
+
+main_15.appendChild(pre_18)
+
+
+app.appendChild(main_15)
+
+footer_121.style.height='45px'
+footer_121.style.borderTop='1px solid #dee2e6'
+footer_121.setAttribute('className', 'd-flex justify-content-center align-items-center')
+var span_125 = document.createElement('span')
+span_125.append(document.createTextNode( 'Powered by UX-Lang'))
+span_125.style.color='#6c757d'
+
+footer_121.appendChild(span_125)
+
+
+app.appendChild(footer_121)
+
+
+app.setAttribute('ux-comp-name','appTest')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','appTest')
+style.textContent = ``
+app.appendChild(style)
+return app
+}
+function appTestBoot() 
+{
+var app = document.createElement('div')
+app.setAttribute('class', 'd-flex flex-column min-vh-100 bg-white text-dark font-monospace')
+var header_2 = document.createElement('header')
+header_2.setAttribute('class', 'border-bottom p-3')
+var div_4 = document.createElement('div')
+div_4.setAttribute('class', 'container d-flex justify-content-between align-items-center')
+var h3_6 = document.createElement('h3')
+h3_6.append(document.createTextNode( 'Joe Baudo'))
+h3_6.setAttribute('class', 'text-primary fw-bold mb-0')
+var nav_8 = document.createElement('nav')
+
+div_4.appendChild(h3_6)
+
+nav_8.setAttribute('class', 'd-flex gap-4')
+var a_10 = document.createElement('a')
+a_10.append(document.createTextNode( 'Research'))
+a_10.setAttribute('href', '#')
+a_10.setAttribute('class', 'text-decoration-none text-purple')
+var a_13 = document.createElement('a')
+a_13.append(document.createTextNode( 'Projects'))
+
+nav_8.appendChild(a_10)
+
+a_13.setAttribute('href', '#')
+a_13.setAttribute('class', 'text-decoration-none text-success')
+var a_16 = document.createElement('a')
+a_16.append(document.createTextNode( 'Articles'))
+
+nav_8.appendChild(a_13)
+
+a_16.setAttribute('href', '#')
+a_16.setAttribute('class', 'text-decoration-none text-warning')
+var a_19 = document.createElement('a')
+a_19.append(document.createTextNode( 'About'))
+
+nav_8.appendChild(a_16)
+
+a_19.setAttribute('href', '#')
+a_19.setAttribute('class', 'text-decoration-none text-primary')
+var main_22 = document.createElement('main')
+
+nav_8.appendChild(a_19)
+
+
+div_4.appendChild(nav_8)
+
+
+header_2.appendChild(div_4)
+
+
+app.appendChild(header_2)
+
+main_22.setAttribute('role', 'main')
+main_22.setAttribute('class', 'container flex-grow-1 py-5')
+var div_25 = document.createElement('div')
+div_25.setAttribute('class', 'bg-light border rounded shadow-sm p-5')
+var div_27 = document.createElement('div')
+var span_28 = document.createElement('span')
+span_28.append(document.createTextNode( 'NAME'))
+span_28.setAttribute('class', 'text-primary fw-bold')
+var span_30 = document.createElement('span')
+span_30.append(document.createTextNode( ' Joe'))
+
+div_27.appendChild(span_28)
+
+span_30.setAttribute('class', 'text-success')
+var div_32 = document.createElement('div')
+
+div_27.appendChild(span_30)
+
+
+div_25.appendChild(div_27)
+
+var span_33 = document.createElement('span')
+span_33.append(document.createTextNode( 'ROLE'))
+span_33.setAttribute('class', 'text-primary fw-bold')
+var span_35 = document.createElement('span')
+span_35.append(document.createTextNode( ' Aspiring PhD Assistant'))
+
+div_32.appendChild(span_33)
+
+span_35.setAttribute('class', 'text-success')
+var div_37 = document.createElement('div')
+
+div_32.appendChild(span_35)
+
+
+div_25.appendChild(div_32)
+
+var span_38 = document.createElement('span')
+span_38.append(document.createTextNode( 'FOCUS'))
+span_38.setAttribute('class', 'text-primary fw-bold')
+var span_40 = document.createElement('span')
+span_40.append(document.createTextNode( ' Programming Languages, Human-Computer Interaction, Artificial Intelligence'))
+
+div_37.appendChild(span_38)
+
+span_40.setAttribute('class', 'text-dark')
+var div_42 = document.createElement('div')
+
+div_37.appendChild(span_40)
+
+
+div_25.appendChild(div_37)
+
+var span_43 = document.createElement('span')
+span_43.append(document.createTextNode( 'CURRENT'))
+span_43.setAttribute('class', 'text-primary fw-bold')
+var span_45 = document.createElement('span')
+span_45.append(document.createTextNode( ' Building UX-Lang, a declarative UI language for modern application development.'))
+
+div_42.appendChild(span_43)
+
+span_45.setAttribute('class', 'text-dark')
+var div_47 = document.createElement('div')
+
+div_42.appendChild(span_45)
+
+
+div_25.appendChild(div_42)
+
+var span_48 = document.createElement('span')
+span_48.append(document.createTextNode( 'INTERESTS'))
+span_48.setAttribute('class', 'text-primary fw-bold')
+var span_50 = document.createElement('span')
+span_50.append(document.createTextNode( ' Language Design, Compilers, Software Engineering and Mathematical Foundations.'))
+
+div_47.appendChild(span_48)
+
+span_50.setAttribute('class', 'text-dark')
+var hr_52 = document.createElement('hr')
+
+div_47.appendChild(span_50)
+
+
+div_25.appendChild(div_47)
+
+var div_53 = document.createElement('div')
+var span_54 = document.createElement('span')
+span_54.append(document.createTextNode( 'SECTION'))
+span_54.setAttribute('class', 'text-purple fw-bold')
+var span_56 = document.createElement('span')
+span_56.append(document.createTextNode( ' Research'))
+
+div_53.appendChild(span_54)
+
+var div_57 = document.createElement('div')
+
+div_53.appendChild(span_56)
+
+div_57.setAttribute('class', 'ms-5 mt-3')
+var p_59 = document.createElement('p')
+p_59.append(document.createTextNode( 'Programming Languages'))
+var p_60 = document.createElement('p')
+p_60.append(document.createTextNode( 'Human Computer Interaction'))
+var p_61 = document.createElement('p')
+p_61.append(document.createTextNode( 'Artificial Intelligence'))
+var p_62 = document.createElement('p')
+p_62.append(document.createTextNode( 'Software Engineering'))
+var hr_63 = document.createElement('hr')
+
+div_57.appendChild(p_59)
+
+
+div_57.appendChild(p_60)
+
+
+div_57.appendChild(p_61)
+
+
+div_57.appendChild(p_62)
+
+var div_64 = document.createElement('div')
+var span_65 = document.createElement('span')
+span_65.append(document.createTextNode( 'SECTION'))
+span_65.setAttribute('class', 'text-success fw-bold')
+var span_67 = document.createElement('span')
+span_67.append(document.createTextNode( ' Projects'))
+
+div_64.appendChild(span_65)
+
+var div_68 = document.createElement('div')
+
+div_64.appendChild(span_67)
+
+div_68.setAttribute('class', 'ms-5 mt-3')
+var p_70 = document.createElement('p')
+var a_71 = document.createElement('a')
+a_71.append(document.createTextNode( 'UX-Lang'))
+a_71.setAttribute('href', 'https://www.npmjs.com/package/ux-lang')
+a_71.setAttribute('class', 'text-decoration-none text-primary fw-bold')
+var span_74 = document.createElement('span')
+span_74.append(document.createTextNode( ' — Declarative UI language for building interfaces.'))
+
+p_70.appendChild(a_71)
+
+var p_75 = document.createElement('p')
+
+p_70.appendChild(span_74)
+
+var a_76 = document.createElement('a')
+a_76.append(document.createTextNode( 'UX-CLI'))
+a_76.setAttribute('href', 'https://www.npmjs.com/package/ux-cli')
+a_76.setAttribute('class', 'text-decoration-none text-primary fw-bold')
+var span_79 = document.createElement('span')
+span_79.append(document.createTextNode( ' — Command line tools for UX-Lang development.'))
+
+p_75.appendChild(a_76)
+
+var p_80 = document.createElement('p')
+
+p_75.appendChild(span_79)
+
+var a_81 = document.createElement('a')
+a_81.append(document.createTextNode( 'UX-Editor'))
+a_81.setAttribute('href', '#')
+a_81.setAttribute('class', 'text-decoration-none text-purple fw-bold')
+var span_84 = document.createElement('span')
+span_84.append(document.createTextNode( ' — Development environment for UX-Lang projects.'))
+
+p_80.appendChild(a_81)
+
+var hr_85 = document.createElement('hr')
+
+p_80.appendChild(span_84)
+
+
+div_68.appendChild(p_70)
+
+
+div_68.appendChild(p_75)
+
+
+div_68.appendChild(p_80)
+
+var div_86 = document.createElement('div')
+var span_87 = document.createElement('span')
+span_87.append(document.createTextNode( 'SECTION'))
+span_87.setAttribute('class', 'text-warning fw-bold')
+var span_89 = document.createElement('span')
+span_89.append(document.createTextNode( ' Articles'))
+
+div_86.appendChild(span_87)
+
+var div_90 = document.createElement('div')
+
+div_86.appendChild(span_89)
+
+div_90.setAttribute('class', 'ms-5 mt-3')
+var p_92 = document.createElement('p')
+var a_93 = document.createElement('a')
+a_93.append(document.createTextNode( 'UX: A Fast Prototyping Language for Web Development That Scales to Server'))
+a_93.setAttribute('href', '#')
+a_93.setAttribute('class', 'text-decoration-none text-primary fw-bold')
+var span_96 = document.createElement('span')
+span_96.append(document.createTextNode( ' — Declarative UI language for rapid prototyping and scalable applications.'))
+
+p_92.appendChild(a_93)
+
+var p_97 = document.createElement('p')
+
+p_92.appendChild(span_96)
+
+var a_98 = document.createElement('a')
+a_98.append(document.createTextNode( 'On the Undecidability of the Riemann Hypothesis, a Paradox'))
+a_98.setAttribute('href', '#')
+a_98.setAttribute('class', 'text-decoration-none text-purple fw-bold')
+var span_101 = document.createElement('span')
+span_101.append(document.createTextNode( ' — Exploring undecidability, formal systems and mathematical foundations.'))
+
+p_97.appendChild(a_98)
+
+var hr_102 = document.createElement('hr')
+
+p_97.appendChild(span_101)
+
+
+div_90.appendChild(p_92)
+
+
+div_90.appendChild(p_97)
+
+var div_103 = document.createElement('div')
+var span_104 = document.createElement('span')
+span_104.append(document.createTextNode( 'GOAL'))
+span_104.setAttribute('class', 'text-danger fw-bold')
+var span_106 = document.createElement('span')
+span_106.append(document.createTextNode( ' Build a modern UI Language.'))
+
+div_103.appendChild(span_104)
+
+span_106.setAttribute('class', 'text-success')
+var br_108 = document.createElement('br')
+
+div_103.appendChild(span_106)
+
+
+div_25.appendChild(hr_52)
+
+
+div_25.appendChild(div_53)
+
+
+div_25.appendChild(div_57)
+
+
+div_25.appendChild(hr_63)
+
+
+div_25.appendChild(div_64)
+
+
+div_25.appendChild(div_68)
+
+
+div_25.appendChild(hr_85)
+
+
+div_25.appendChild(div_86)
+
+
+div_25.appendChild(div_90)
+
+
+div_25.appendChild(hr_102)
+
+
+div_25.appendChild(div_103)
+
+var div_109 = document.createElement('div')
+var span_110 = document.createElement('span')
+span_110.append(document.createTextNode( '// Everything on this page is written in UX-Lang.'))
+span_110.setAttribute('class', 'text-secondary')
+var footer_112 = document.createElement('footer')
+
+div_109.appendChild(span_110)
+
+
+div_25.appendChild(br_108)
+
+
+div_25.appendChild(div_109)
+
+
+main_22.appendChild(div_25)
+
+
+app.appendChild(main_22)
+
+footer_112.setAttribute('class', 'border-top py-3 text-center')
+var span_114 = document.createElement('span')
+span_114.append(document.createTextNode( 'Powered by UX-Lang'))
+span_114.setAttribute('class', 'text-secondary')
+
+footer_112.appendChild(span_114)
+
+
+app.appendChild(footer_112)
+
+
+app.setAttribute('ux-comp-name','appTestBoot')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','appTestBoot')
+style.textContent = ``
+app.appendChild(style)
+return app
+}
+function body() 
+{
+var body = document.createElement('div')
+var appTestBoot_1 = appTestBoot()
+
+body.appendChild(appTestBoot_1)
+
+
+body.setAttribute('ux-comp-name','body')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','body')
+style.textContent = ``
+body.appendChild(style)
+return body
+}
+function eventConf() 
+{
+var root = document.createElement('div')
+
+    function dispatch (eventName, msg) {
+        console.log('dispatch - ' + eventName);
+        var detail = {detail: msg};
+        document.dispatchEvent(new CustomEvent(eventName, detail));
+    }
+    
+    // export function dispatch2 (eventName, msg, from, to)
+    
+    function register (eventName, callback){
+        document.addEventListener(eventName, callback);
+    }
+    
+    function unregister (eventName, callback){
+        document.removeEventListener(eventName, callback);
+    }
+    
+    function registerDefault (callback){
+        document.addEventListener(callback.name, callback);
+    }
+    
+    document.registerDefault = registerDefault
+    document.em = dispatch
+    document.register = register
+    document.unregister = unregister
+
+
+root.setAttribute('ux-comp-name','eventConf')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','eventConf')
+style.textContent = ``
+root.appendChild(style)
+return root
+}
+function head() 
+{
+var head = document.createElement('div')
+var meta_1 = document.createElement('meta')
+meta_1.setAttribute('charset', 'utf-8')
+var meta_3 = document.createElement('meta')
+
+head.appendChild(meta_1)
+
+meta_3.setAttribute('name', 'viewport')
+meta_3.setAttribute('content', 'width=device-width, initial-scale=1, shrink-to-fit=no')
+var meta_6 = document.createElement('meta')
+
+head.appendChild(meta_3)
+
+meta_6.setAttribute('http-equiv', 'x-ua-compatible')
+meta_6.setAttribute('content', 'ie=edge')
+var link_9 = document.createElement('link')
+
+head.appendChild(meta_6)
+
+link_9.setAttribute('href', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css')
+link_9.setAttribute('rel', 'stylesheet')
+var link_12 = document.createElement('link')
+
+head.appendChild(link_9)
+
+link_12.setAttribute('href', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css')
+link_12.setAttribute('rel', 'stylesheet')
+var link_15 = document.createElement('link')
+
+head.appendChild(link_12)
+
+link_15.setAttribute('href', 'https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&display=swap')
+link_15.setAttribute('rel', 'stylesheet')
+var link_18 = document.createElement('link')
+
+head.appendChild(link_15)
+
+link_18.setAttribute('href', 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap')
+link_18.setAttribute('rel', 'stylesheet')
+var link_21 = document.createElement('link')
+
+head.appendChild(link_18)
+
+link_21.setAttribute('href', '../assets/css/ux.css')
+link_21.setAttribute('rel', 'stylesheet')
+var script_24 = document.createElement('script')
+
+head.appendChild(link_21)
+
+script_24.setAttribute('src', 'https://code.jquery.com/jquery-3.2.1.slim.min.js')
+script_24.setAttribute('integrity', 'sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN')
+script_24.setAttribute('crossOrigin', 'anonymous')
+var script_28 = document.createElement('script')
+
+head.appendChild(script_24)
+
+script_28.setAttribute('src', 'https://d3js.org/d3.v6.min.js')
+var script_30 = document.createElement('script')
+
+head.appendChild(script_28)
+
+script_30.setAttribute('src', 'https://d3js.org/d3-dispatch.v2.min.js')
+var script_32 = document.createElement('script')
+
+head.appendChild(script_30)
+
+script_32.setAttribute('src', 'https://d3js.org/d3-selection.v2.min.js')
+var script_34 = document.createElement('script')
+
+head.appendChild(script_32)
+
+script_34.setAttribute('src', 'https://d3js.org/d3-drag.v2.min.js')
+var script_36 = document.createElement('script')
+
+head.appendChild(script_34)
+
+script_36.setAttribute('src', 'https://cdnjs.cloudflare.com/ajax/libs/markdown-it/12.0.4/markdown-it.min.js')
+script_36.setAttribute('integrity', 'sha512-0DkA2RqFvfXBVeti0R1l0E8oMkmY0X+bAA2i02Ld8xhpjpvqORUcE/UBe+0KOPzi5iNah0aBpW6uaNNrqCk73Q==')
+script_36.setAttribute('crossOrigin', 'anonymous')
+var script_40 = document.createElement('script')
+
+head.appendChild(script_36)
+
+script_40.setAttribute('src', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js')
+var script_42 = document.createElement('script')
+
+head.appendChild(script_40)
+
+script_42.setAttribute('src', '../assets/js/mdb.min.js')
+script_42.setAttribute('type', 'text/javascript')
+var title_45 = document.createElement('title')
+title_45.append(document.createTextNode( 'Joe Baudo'))
+
+head.appendChild(script_42)
+
+
+head.appendChild(title_45)
+
+eventConf()
+restConf()
+head.setAttribute('ux-comp-name','head')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','head')
+style.textContent = ``
+head.appendChild(style)
+return head
+}
+function restConf() 
+{
+var root = document.createElement('div')
+function json(serviceName, msg={}, mode='cors'){
+    const host = 'http://localhost:83/';
+
+    return new Promise( (resolve, reject) => {
+        // prendo i cookie
+        // document.cookie = "user=admin@katecode.com;pass=admin"
+        
+        //document.cookie = "user=admin@katecode.com;pass=admin"
+        //document.cookie = "pass=admi"
+        
+        // *************** Vanilla cookie
+        var props = document.cookie.split(';')
+
+        var user = ''
+        var pass = ''
+
+        props.forEach(v => {
+          var tokens = v.split('=')
+          if(tokens[0]=='user'){
+            user = tokens[1]
+          }
+          if(tokens[0].trim()=='pass'){
+            pass = tokens[1]
+          }
+        })
+        //********************************
+        
+        // npm js-cookie
+        //Cookies.set('user','root')
+        //Cookies.set('pass','root')
+        
+      
+
+        fetch(host+serviceName, {
+            mode: mode, //same-origin
+            method: 'POST', 
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            },
+            body: JSON.stringify(msg) // body data type must match "Content-Type" header
+        }).then( response => {
+            return response.json()
+        }).then(data => {
+            console.log('fetching response ... data is + ' + JSON.stringify(data))
+            //document.eventManager(`${serviceName}.response`, data)
+            resolve(data)
+        }).catch(error => {
+            reject(error)
+        });
+    })
+
+}
+
+document.json = json;
+root.setAttribute('ux-comp-name','restConf')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','restConf')
+style.textContent = ``
+root.appendChild(style)
+return root
+}
+function sideBar() 
+{
+var sideBar = document.createElement('div')
+sideBar.setAttribute('className', 'ux-side-bar d-flex flex-column')
+sideBar.style.border='1px solid #444'
+sideBar.style.backgroundColor='#dddddd'
+sideBar.style.padding='10px'
+var sideBarCaption = document.createElement('span')
+sideBarCaption.append(document.createTextNode( 'Side Bar'))
+
+sideBar.appendChild(sideBarCaption)
+
+
+sideBar.setAttribute('ux-comp-name','sideBar')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','sideBar')
+style.textContent = ``
+sideBar.appendChild(style)
+return sideBar
+}
+function snippets() 
+{
+var div_0 = document.createElement('div')
+var link_1 = document.createElement('link')
+link_1.setAttribute('rel', 'stylesheet')
+link_1.setAttribute('href', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css')
+link_1.setAttribute('integrity', 'sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l')
+link_1.setAttribute('crossOrigin', 'anonymous')
+
+div_0.appendChild(link_1)
+
+
+div_0.setAttribute('ux-comp-name','snippets')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','snippets')
+style.textContent = ``
+div_0.appendChild(style)
+return div_0
+}
+function statusBar() 
+{
+var statusBar = document.createElement('div')
+statusBar.setAttribute('className', 'ux-status-bar d-flex align-items-center')
+statusBar.style.border='1px solid #444'
+statusBar.style.backgroundColor='#eeeeee'
+statusBar.style.padding='10px'
+var statusBarCaption = document.createElement('span')
+statusBarCaption.append(document.createTextNode( 'Status Bar'))
+
+statusBar.appendChild(statusBarCaption)
+
+
+statusBar.setAttribute('ux-comp-name','statusBar')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','statusBar')
+style.textContent = ``
+statusBar.appendChild(style)
+return statusBar
+}
+function topBar() 
+{
+var topBar = document.createElement('div')
+topBar.setAttribute('className', 'ux-top-bar d-flex align-items-center')
+topBar.style.border='1px solid #444'
+topBar.style.backgroundColor='#eeeeee'
+topBar.style.padding='10px'
+var topBarCaption = document.createElement('span')
+topBarCaption.append(document.createTextNode( 'Top Bar'))
+
+topBar.appendChild(topBarCaption)
+
+
+topBar.setAttribute('ux-comp-name','topBar')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','topBar')
+style.textContent = ``
+topBar.appendChild(style)
+return topBar
+}
+</script></body></html>
