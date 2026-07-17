@@ -1,0 +1,169 @@
+div app
+    .class d-flex flex-column min-vh-100 bg-white text-dark font-monospace
+
+    header
+        .class border-bottom p-3
+
+        div
+            .class container d-flex justify-content-between align-items-center
+
+            h3 'Joe Baudo
+                .class text-primary fw-bold mb-0
+
+            nav
+                .class d-flex gap-4
+
+                a 'Research
+                    .href #
+                    .class text-decoration-none text-purple
+
+                a 'Projects
+                    .href #
+                    .class text-decoration-none text-success
+
+                a 'Articles
+                    .href #
+                    .class text-decoration-none text-warning
+
+                a 'About
+                    .href #
+                    .class text-decoration-none text-primary
+
+    main
+        .role main
+        .class container flex-grow-1 py-5
+
+        div
+            .class bg-light border rounded shadow-sm p-5
+
+            div
+                span 'NAME
+                    .class text-primary fw-bold
+
+                span ' Joe
+                    .class text-success
+
+            div
+                span 'ROLE
+                    .class text-primary fw-bold
+
+                span ' Aspiring PhD Assistant
+                    .class text-success
+
+            div
+                span 'FOCUS
+                    .class text-primary fw-bold
+
+                span ' Programming Languages, Human-Computer Interaction, Artificial Intelligence
+                    .class text-dark
+
+            div
+                span 'CURRENT
+                    .class text-primary fw-bold
+
+                span ' Building UX-Lang, a declarative UI language for modern application development.
+                    .class text-dark
+
+            div
+                span 'INTERESTS
+                    .class text-primary fw-bold
+
+                span ' Language Design, Compilers, Software Engineering and Mathematical Foundations.
+                    .class text-dark
+
+            hr
+
+            div
+                span 'SECTION
+                    .class text-purple fw-bold
+
+                span ' Research
+
+            div
+                .class ms-5 mt-3
+
+                p 'Programming Languages
+
+                p 'Human Computer Interaction
+
+                p 'Artificial Intelligence
+
+                p 'Software Engineering
+
+            hr
+
+            div
+                span 'SECTION
+                    .class text-success fw-bold
+
+                span ' Projects
+
+            div
+                .class ms-5 mt-3
+
+                p
+                    a 'UX-Lang
+                        .href https://www.npmjs.com/package/ux-lang
+                        .class text-decoration-none text-primary fw-bold
+
+                    span ' — Declarative UI language for building interfaces.
+
+                p
+                    a 'UX-CLI
+                        .href https://www.npmjs.com/package/ux-cli
+                        .class text-decoration-none text-primary fw-bold
+
+                    span ' — Command line tools for UX-Lang development.
+
+                p
+                    a 'UX-Editor
+                        .href #
+                        .class text-decoration-none text-purple fw-bold
+
+                    span ' — Development environment for UX-Lang projects.
+
+            hr
+
+            div
+                span 'SECTION
+                    .class text-warning fw-bold
+
+                span ' Articles
+
+            div
+                .class ms-5 mt-3
+
+                p
+                    a 'UX: A Fast Prototyping Language for Web Development That Scales to Server
+                        .href #
+                        .class text-decoration-none text-primary fw-bold
+
+                    span ' — Declarative UI language for rapid prototyping and scalable applications.
+
+                p
+                    a 'On the Undecidability of the Riemann Hypothesis, a Paradox
+                        .href #
+                        .class text-decoration-none text-purple fw-bold
+
+                    span ' — Exploring undecidability, formal systems and mathematical foundations.
+
+            hr
+
+            div
+                span 'GOAL
+                    .class text-danger fw-bold
+
+                span ' Build a modern UI Language.
+                    .class text-success
+
+            br
+
+            div
+                span '// Everything on this page is written in UX-Lang.
+                    .class text-secondary
+
+    footer
+        .class border-top py-3 text-center
+
+        span 'Powered by UX-Lang
+            .class text-secondary
