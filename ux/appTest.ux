@@ -1,0 +1,148 @@
+div app
+    -backgroundColor white
+    -color #212529
+    -fontFamily JetBrains Mono, Consolas, Courier New, monospace
+    .className d-flex flex-column ux-full-wh
+
+    header
+        -height 70px
+        -padding 0 40px
+        -borderBottom 1px solid #dee2e6
+        .className d-flex justify-content-between align-items-center
+
+        h3 
+            -color #0d6efd
+            -fontWeight 700
+
+        nav
+            .className d-flex gap-4
+
+
+
+    main
+        -padding 60px
+        .className flex-grow-1
+
+        pre
+            -backgroundColor #fafafa
+            -border 1px solid #dee2e6
+            -borderRadius 10px
+            -padding 40px
+            -fontSize 1.1rem
+            -lineHeight 2rem
+
+            div
+                span 'AUTHOR
+                    -color #0d6efd
+                    -fontWeight 700
+
+                span ' Joe Baudo
+                    -color #212529
+
+            br
+
+            div
+                span 'APPLICATION
+                    -color #0d6efd
+                    -fontWeight 700
+
+                span ' Personal Page
+                    -color #198754
+
+            br
+
+            div
+                span 'ROLE
+                    -color #0d6efd
+                    -fontWeight 700
+
+                span ' Aspiring PhD Assistant
+                    -color #198754
+
+            br
+            br
+
+            div
+                span 'SECTION
+                    -color #6f42c1
+                    -fontWeight 700
+
+                span ' Research
+                    -color #212529
+
+            div
+                -marginLeft 40px
+
+                p 'Programming Languages
+
+                p 'Human Computer Interaction
+
+                p 'Artificial Intelligence
+
+                p 'Software Engineering
+
+            br
+
+            div
+                span 'SECTION
+                    -color #198754
+                    -fontWeight 700
+
+                span ' Projects
+                    -color #212529
+
+            div
+                -marginLeft 40px
+
+                p 'UX-Lang
+
+                p 'UX-Lang Compiler
+
+                p 'Desktop Framework
+
+                p 'Experimental UI Toolkit
+
+            br
+
+            div
+                span 'SECTION
+                    -color #fd7e14
+                    -fontWeight 700
+
+                span ' Articles
+                    -color #212529
+
+            div
+                -marginLeft 40px
+
+                p 'Language Design
+
+                p 'Compiler Notes
+
+                p 'Research Journal
+
+                p 'Development Blog
+
+            br
+
+            div
+                span 'GOAL
+                    -color #dc3545
+                    -fontWeight 700
+
+                span ' Build a modern UI Language
+                    -color #198754
+
+            br
+
+            div
+                span '// Everything on this page is written in UX-Lang.
+                    -color #6c757d
+
+    footer
+        -height 45px
+        -borderTop 1px solid #dee2e6
+        .className d-flex justify-content-center align-items-center
+
+        span 'Powered by UX-Lang
+            -color #6c757d

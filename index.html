@@ -39,12 +39,340 @@ style.textContent = ``
 home.appendChild(style)
 return home
 }
+function appTest() 
+{
+var app = document.createElement('div')
+app.style.backgroundColor='white'
+app.style.color='#212529'
+app.style.fontFamily='JetBrains Mono, Consolas, Courier New, monospace'
+app.setAttribute('className', 'd-flex flex-column ux-full-wh')
+var header_5 = document.createElement('header')
+header_5.style.height='70px'
+header_5.style.padding='0 40px'
+header_5.style.borderBottom='1px solid #dee2e6'
+header_5.setAttribute('className', 'd-flex justify-content-between align-items-center')
+var h3_10 = document.createElement('h3')
+h3_10.append(document.createTextNode( 'UX-Lang'))
+h3_10.style.color='#0d6efd'
+h3_10.style.fontWeight='700'
+var nav_13 = document.createElement('nav')
+
+header_5.appendChild(h3_10)
+
+nav_13.setAttribute('className', 'd-flex gap-4')
+var a_15 = document.createElement('a')
+a_15.append(document.createTextNode( 'Research'))
+a_15.style.color='#6f42c1'
+a_15.setAttribute('href', '#')
+var a_18 = document.createElement('a')
+a_18.append(document.createTextNode( 'Projects'))
+
+nav_13.appendChild(a_15)
+
+a_18.style.color='#198754'
+a_18.setAttribute('href', '#')
+var a_21 = document.createElement('a')
+a_21.append(document.createTextNode( 'Articles'))
+
+nav_13.appendChild(a_18)
+
+a_21.style.color='#fd7e14'
+a_21.setAttribute('href', '#')
+var a_24 = document.createElement('a')
+a_24.append(document.createTextNode( 'About'))
+
+nav_13.appendChild(a_21)
+
+a_24.style.color='#0d6efd'
+a_24.setAttribute('href', '#')
+var main_27 = document.createElement('main')
+
+nav_13.appendChild(a_24)
+
+
+header_5.appendChild(nav_13)
+
+
+app.appendChild(header_5)
+
+main_27.style.padding='60px'
+main_27.setAttribute('className', 'flex-grow-1')
+var pre_30 = document.createElement('pre')
+pre_30.style.backgroundColor='#fafafa'
+pre_30.style.border='1px solid #dee2e6'
+pre_30.style.borderRadius='10px'
+pre_30.style.padding='40px'
+pre_30.style.fontSize='1.1rem'
+pre_30.style.lineHeight='2rem'
+var div_37 = document.createElement('div')
+var span_38 = document.createElement('span')
+span_38.append(document.createTextNode( 'APPLICATION'))
+span_38.style.color='#0d6efd'
+span_38.style.fontWeight='700'
+var span_41 = document.createElement('span')
+span_41.append(document.createTextNode( ' PersonalHome'))
+
+div_37.appendChild(span_38)
+
+span_41.style.color='#212529'
+var br_43 = document.createElement('br')
+
+div_37.appendChild(span_41)
+
+
+pre_30.appendChild(div_37)
+
+var div_44 = document.createElement('div')
+var span_45 = document.createElement('span')
+span_45.append(document.createTextNode( 'AUTHOR'))
+span_45.style.color='#0d6efd'
+span_45.style.fontWeight='700'
+var span_48 = document.createElement('span')
+span_48.append(document.createTextNode( ' Joe'))
+
+div_44.appendChild(span_45)
+
+span_48.style.color='#198754'
+var br_50 = document.createElement('br')
+
+div_44.appendChild(span_48)
+
+
+pre_30.appendChild(br_43)
+
+
+pre_30.appendChild(div_44)
+
+var div_51 = document.createElement('div')
+var span_52 = document.createElement('span')
+span_52.append(document.createTextNode( 'ROLE'))
+span_52.style.color='#0d6efd'
+span_52.style.fontWeight='700'
+var span_55 = document.createElement('span')
+span_55.append(document.createTextNode( ' Aspiring PhD Assistant'))
+
+div_51.appendChild(span_52)
+
+span_55.style.color='#198754'
+var br_57 = document.createElement('br')
+
+div_51.appendChild(span_55)
+
+
+pre_30.appendChild(br_50)
+
+
+pre_30.appendChild(div_51)
+
+var br_58 = document.createElement('br')
+var div_59 = document.createElement('div')
+var span_60 = document.createElement('span')
+span_60.append(document.createTextNode( 'SECTION'))
+span_60.style.color='#6f42c1'
+span_60.style.fontWeight='700'
+var span_63 = document.createElement('span')
+span_63.append(document.createTextNode( ' Research'))
+
+div_59.appendChild(span_60)
+
+span_63.style.color='#212529'
+var div_65 = document.createElement('div')
+
+div_59.appendChild(span_63)
+
+
+pre_30.appendChild(br_57)
+
+
+pre_30.appendChild(br_58)
+
+
+pre_30.appendChild(div_59)
+
+div_65.style.marginLeft='40px'
+var p_67 = document.createElement('p')
+p_67.append(document.createTextNode( 'Programming Languages'))
+var p_68 = document.createElement('p')
+p_68.append(document.createTextNode( 'Human Computer Interaction'))
+var p_69 = document.createElement('p')
+p_69.append(document.createTextNode( 'Artificial Intelligence'))
+var p_70 = document.createElement('p')
+p_70.append(document.createTextNode( 'Software Engineering'))
+var br_71 = document.createElement('br')
+
+div_65.appendChild(p_67)
+
+
+div_65.appendChild(p_68)
+
+
+div_65.appendChild(p_69)
+
+
+div_65.appendChild(p_70)
+
+var div_72 = document.createElement('div')
+var span_73 = document.createElement('span')
+span_73.append(document.createTextNode( 'SECTION'))
+span_73.style.color='#198754'
+span_73.style.fontWeight='700'
+var span_76 = document.createElement('span')
+span_76.append(document.createTextNode( ' Projects'))
+
+div_72.appendChild(span_73)
+
+span_76.style.color='#212529'
+var div_78 = document.createElement('div')
+
+div_72.appendChild(span_76)
+
+
+pre_30.appendChild(div_65)
+
+
+pre_30.appendChild(br_71)
+
+
+pre_30.appendChild(div_72)
+
+div_78.style.marginLeft='40px'
+var p_80 = document.createElement('p')
+p_80.append(document.createTextNode( 'UX-Lang'))
+var p_81 = document.createElement('p')
+p_81.append(document.createTextNode( 'UX-Lang Compiler'))
+var p_82 = document.createElement('p')
+p_82.append(document.createTextNode( 'Desktop Framework'))
+var p_83 = document.createElement('p')
+p_83.append(document.createTextNode( 'Experimental UI Toolkit'))
+var br_84 = document.createElement('br')
+
+div_78.appendChild(p_80)
+
+
+div_78.appendChild(p_81)
+
+
+div_78.appendChild(p_82)
+
+
+div_78.appendChild(p_83)
+
+var div_85 = document.createElement('div')
+var span_86 = document.createElement('span')
+span_86.append(document.createTextNode( 'SECTION'))
+span_86.style.color='#fd7e14'
+span_86.style.fontWeight='700'
+var span_89 = document.createElement('span')
+span_89.append(document.createTextNode( ' Articles'))
+
+div_85.appendChild(span_86)
+
+span_89.style.color='#212529'
+var div_91 = document.createElement('div')
+
+div_85.appendChild(span_89)
+
+
+pre_30.appendChild(div_78)
+
+
+pre_30.appendChild(br_84)
+
+
+pre_30.appendChild(div_85)
+
+div_91.style.marginLeft='40px'
+var p_93 = document.createElement('p')
+p_93.append(document.createTextNode( 'Language Design'))
+var p_94 = document.createElement('p')
+p_94.append(document.createTextNode( 'Compiler Notes'))
+var p_95 = document.createElement('p')
+p_95.append(document.createTextNode( 'Research Journal'))
+var p_96 = document.createElement('p')
+p_96.append(document.createTextNode( 'Development Blog'))
+var br_97 = document.createElement('br')
+
+div_91.appendChild(p_93)
+
+
+div_91.appendChild(p_94)
+
+
+div_91.appendChild(p_95)
+
+
+div_91.appendChild(p_96)
+
+var div_98 = document.createElement('div')
+var span_99 = document.createElement('span')
+span_99.append(document.createTextNode( 'GOAL'))
+span_99.style.color='#dc3545'
+span_99.style.fontWeight='700'
+var span_102 = document.createElement('span')
+span_102.append(document.createTextNode( ' Build a modern UI Language'))
+
+div_98.appendChild(span_99)
+
+span_102.style.color='#198754'
+var br_104 = document.createElement('br')
+
+div_98.appendChild(span_102)
+
+
+pre_30.appendChild(div_91)
+
+
+pre_30.appendChild(br_97)
+
+
+pre_30.appendChild(div_98)
+
+var div_105 = document.createElement('div')
+var span_106 = document.createElement('span')
+span_106.append(document.createTextNode( '// Everything on this page is written in UX-Lang.'))
+span_106.style.color='#6c757d'
+var footer_108 = document.createElement('footer')
+
+div_105.appendChild(span_106)
+
+
+pre_30.appendChild(br_104)
+
+
+pre_30.appendChild(div_105)
+
+
+main_27.appendChild(pre_30)
+
+
+app.appendChild(main_27)
+
+footer_108.style.height='45px'
+footer_108.style.borderTop='1px solid #dee2e6'
+footer_108.setAttribute('className', 'd-flex justify-content-center align-items-center')
+var span_112 = document.createElement('span')
+span_112.append(document.createTextNode( 'Powered by UX-Lang'))
+span_112.style.color='#6c757d'
+
+footer_108.appendChild(span_112)
+
+
+app.appendChild(footer_108)
+
+
+app.setAttribute('ux-comp-name','appTest')
+let style = document.createElement('style')
+style.setAttribute('ux-comp-name-css','appTest')
+style.textContent = ``
+app.appendChild(style)
+return app
+}
 function body() 
 {
 var body = document.createElement('div')
-var app_1 = app()
+var appTest_1 = appTest()
 
-body.appendChild(app_1)
+body.appendChild(appTest_1)
 
 
 body.setAttribute('ux-comp-name','body')
